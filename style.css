@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    width: 100%;
+    height: 100%;
+    color: white;
+    background: black;
+  }
+  .container{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 8%;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),url(bg-image.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+  }
+  .container .navbar{
+    display: flex;
+    
+  }
+  .container .navbar .logo{
+    display: flex;
+    float: left;
+  }
+  .container .navbar .logo img{
+    height: 100px;
+    margin-right: 50%;
+    margin-top: 0;
+    padding-top: 0;
+    justify-content: left;
+    left: 35px;
+    position: absolute;
+  }
+  
+  .container .navbar button{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 15px;
+    margin: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .container .navbar .buttons{
+    display: flex;
+    height: 50px;
+    float: right;
+    position: absolute;
+    right: 50px;
+    margin-top: 12px;
+    gap: 14px;
+  }
+  .info{
+    padding: 70px 40px;
+    width: 950px;
+    margin-top: 20%;
+    padding: 75px 0;
+    text-align: center;
+  }
+  .info h1{
+    line-height: 70px;
+    font-weight: 600;
+    max-width: 650px;
+    margin: auto;
+    text-align: center;
+    font-size: 3rem;
+  }
+  .info h3{
+    font-weight: 400;
+    margin: auto;
+    width: 650px;
+    text-align: center;
+    font-size: 1.3rem;
+  }
+  .info p{
+    text-align: center;
+    margin: 18px 0;
+    font-size: 1rem;
+  }
